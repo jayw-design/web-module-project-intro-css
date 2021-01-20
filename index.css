@@ -1,0 +1,218 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Mono&display=swap");
+
+@import url("https://fonts.googleapis.com/css2?family=Chelsea+Market&display=swap");
+
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+  margin: 0;
+  padding: 0;
+  /* border: 0; */
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+
+* {
+  border: 0.5px solid grey;
+  max-width: 100%;
+}
+
+html {
+  font-size: 62.5%;
+  font-family: "Roboto Mono", monospace;
+}
+
+.circledimage {
+  float: left;
+  display: inline-block;
+  width: 20%;
+  margin-left: 20%;
+  border-radius: 50%;
+}
+
+div.titleboxes {
+  display: block;
+}
+
+.sitetitle {
+  /* float: left; */
+  margin-left: 30%;
+  text-align: center;
+  font-size: 4em;
+  letter-spacing: 2px;
+  font-family: "Chelsea Market", cursive;
+  padding: 2% 2%;
+}
+
+.sitetitle p {
+  font-family: "Roboto Mono", monospace;
+  font-size: 1.2rem;
+  letter-spacing: 0px;
+  padding: 10px 15%;
+}
+
+.secondbox {
+  margin: 4%;
+  /* content: auto; */
+  padding: 15px 40px;
+  background-color: #ddb9a3;
+  font-size: 2em;
+  color: white;
+  text-align: center;
+  font-size: 1.4em;
+}
+
+.shrink {
+  display: block;
+  width: 20%;
+  height: auto;
+  margin-left: auto;
+  margin-right: auto;
+  width: 8%;
+}
+
+.description {
+  position: center;
+  text-align: center;
+  padding: 10px 40%;
+  margin-bottom: 50px;
+}
+
+section div a.important {
+  font-weight: bold;
+}
+
+.buttons1 {
+  display: inline-block;
+  width: 100px;
+  color: white;
+  text-decoration: none;
+  background-color: #ff764e;
+  text-align: center;
+  border-radius: 10px;
+  padding: 0.5% 0.5%;
+}
+
+.buttons2 {
+  display: inline-block;
+  width: 100px;
+  color: white;
+  text-decoration: none;
+  background-color: #5ed3eb;
+  text-align: center;
+  border-radius: 10px;
+  padding: 0.5% 0.5%;
+}
+
+.buttons3 {
+  display: inline-block;
+  width: 100px;
+  color: white;
+  text-decoration: none;
+  background-color: #ffcd69;
+  text-align: center;
+  border-radius: 10px;
+  padding: 0.5% 0.5%;
+}
+
+nav {
+  margin: 30px auto;
+  text-align: center;
+}
+
+nav a {
+  padding: 12px 30px;
+  margin-right: 10%;
+}
+
+.panorama {
+  height: 15vh;
+  background-size: cover;
+  margin: 0 auto;
+  width: 100%;
+  border: 0px;
+}
+
+.footerarea {
+  background-color: #f9e7dc;
+  padding: 3vh;
+}
